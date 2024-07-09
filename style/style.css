@@ -135,7 +135,7 @@ nav .resume-btn{
   font-weight: 600;
   margin: 32px 0px;
 }
-.my-inspiration, .my-target{
+.my-inspiration, .my-target, .next-target{
   margin: 0 148px;
 }
 .inspiration-heading, .inspiration-info, .my-target-heading, .my-target-info {
@@ -200,4 +200,35 @@ nav .resume-btn{
 .javascript{
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+
+.next-target-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.next-target-title{
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+}
+.next-target-info{
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 0.7;
+}
+.next-target{
+  margin-bottom: 49px;
 }
