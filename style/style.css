@@ -135,10 +135,10 @@ nav .resume-btn{
   font-weight: 600;
   margin: 32px 0px;
 }
-.my-inspiration{
+.my-inspiration, .my-target{
   margin: 0 148px;
 }
-.inspiration-heading, .inspiration-info{
+.inspiration-heading, .inspiration-info, .my-target-heading, .my-target-info {
   padding: 0 144px;
   text-align: center;
 }
@@ -154,4 +154,50 @@ nav .resume-btn{
 }
 .inspiration-video iframe{
   border-radius: 16px;
+}
+
+
+.target-tech-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 48px;
+  margin-bottom: 111px;
+}
+.tech-content{
+  padding: 40px;
+}
+.tech-title{
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+}
+.tech-info{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.tech-learn-more{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.html{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.css{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.javascript{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
