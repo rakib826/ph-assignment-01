@@ -135,7 +135,7 @@ nav .resume-btn{
   font-weight: 600;
   margin: 32px 0px;
 }
-.my-inspiration, .my-target, .next-target{
+.my-inspiration, .my-target, .next-target, .support{
   margin: 0 148px;
 }
 .inspiration-heading, .inspiration-info, .my-target-heading, .my-target-info {
@@ -222,7 +222,6 @@ nav .resume-btn{
   text-align: left;
 }
 .next-target-info{
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -231,4 +230,58 @@ nav .resume-btn{
 }
 .next-target{
   margin-bottom: 49px;
+}
+.support-content{
+  padding: 64px 48px 64px 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/assets/handshake.jpg");
+  margin-bottom: 80px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+.support-title{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.support-info{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.feedback{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  width: 548px;
+  height: 57px;
+}
+.submit{
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  width: 120px;
+  height: 57px;
+  border: none;
 }
