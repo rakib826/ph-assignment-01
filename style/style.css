@@ -80,7 +80,7 @@ nav .resume-btn{
   color: white;
 }
 .web-development{
-  margin: 0 145px;
+  margin: 0 148px;
   padding: 80px 97px 80px 97px;
   background: rgba(13, 19, 33, 0.02);
   margin-bottom: 88px;
@@ -136,6 +136,22 @@ nav .resume-btn{
   margin: 32px 0px;
 }
 .my-inspiration{
-  margin: 0 145px;
+  margin: 0 148px;
+}
+.inspiration-heading, .inspiration-info{
   padding: 0 144px;
+  text-align: center;
+}
+.inspiration-video{
+  margin-top: 48px;
+  margin-bottom: 151px;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  height: 614px;
+  align-items: center;
+}
+.inspiration-video iframe{
+  border-radius: 16px;
 }
